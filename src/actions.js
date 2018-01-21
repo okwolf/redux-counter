@@ -1,7 +1,4 @@
-export const decrement = () => ({
-  type: "DECREMENT"
-});
-
-export const increment = () => ({
-  type: "INCREMENT"
-});
+export default {
+  decrement: () => state => ({ count: state.count - 1 }),
+  increment: () => state => ({ count: state.count + 1 })
+};
