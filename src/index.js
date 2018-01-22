@@ -1,13 +1,12 @@
-import React from "react";
-import { render } from "react-dom";
-import { Provider } from "react-redux";
-import store from "./store";
+import { app } from "hyperapp";
+import { h, withReducer } from "cra-hyperapp";
+import reducer from "./reducer";
 import App from "./App";
 import "./index.css";
 
-render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
+withReducer(reducer)(app)(
+  {},
+  {},
+  () => <App />,
   document.getElementById("root")
 );

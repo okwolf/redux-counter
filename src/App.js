@@ -1,5 +1,4 @@
-import React from "react";
-import { connect } from "react-redux";
+import { h, connect } from "cra-hyperapp";
 import * as actions from "./actions";
 
 const App = ({ count, decrement, increment }) => (
