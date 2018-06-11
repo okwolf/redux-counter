@@ -3,15 +3,12 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "cra-hyperapp": "0.0.4",
-    "hyperapp": "^1.0.2"
+    "cra-hyperapp": "0.1.0",
+    "hyperapp": "1.2.6"
   },
   "scripts": {
     "format": "npx prettier --write src/**/*.{css,js}",
     "start": "hyperapp-scripts start",
     "build": "hyperapp-scripts build"
-  },
-  "devDependencies": {
-    "react-scripts": "^1.1.0"
   }
 }
