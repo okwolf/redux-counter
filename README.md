@@ -1,4 +1,4 @@
-# A [React](https://reactjs.org)/[Redux](https://redux.js.org) example so simple it's embarrassing
+# A [React](https://reactjs.org)/[Redux](https://redux.js.org) example so trivial it's embarrassing
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
